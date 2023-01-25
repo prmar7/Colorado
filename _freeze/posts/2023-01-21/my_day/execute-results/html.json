@@ -1,0 +1,14 @@
+{
+  "hash": "9ef95935a0ba36e640e2f2b53fc025ad",
+  "result": {
+    "markdown": "---\ntitle: \"Gilbraith and Green Mountain\"\ndate: \"2023-01-21\"\ncategories: [hiking]\nimage: \"best_pic.jpg\"\n---\n\n\nThis was a great first real day of hiking! The first trail head of Gilbraith is 14 minutes from my front door! Score! This is what we moved here for!\n\nFirst we hit up Einstein Brothers for a coffee and a couple bagels and shmear as a quick\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n<img src=\"best_pic.jpg\" alt=\"A man and his dog\" height=700 width=900>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

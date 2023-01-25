@@ -1,13 +1,24 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Galbraith and Green Mountain"
 date: "2023-01-21"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [hiking]
+image: "best_pic.jpg"
 ---
 
-This is a post with executable code.
+This was a great first real day of hiking! The first trail head, mount Galbraith, is 14 minutes from my front door! Score! This is what we moved here for!
 
-```{r}
-1 + 1
-```
+First we hit up Einstein Brothers for a coffee and a couple bagels and shmear as a quick pick me up (and a well needed snack later - just you wait)
+
+<img src="einstein_evidence.jpg" alt="Coffee and a map" height=500 width=700>
+
+Like any self-respecting trail head, a map greeted us at the onset. Jefferson County (where we live) has a series of "open spaces" which are essentially all the parks and hikes and green area. It's really cool.
+
+<img src="gal_trail_map.jpg" alt="Just a map" height=500 width=700>
+
+After a couple of switch backs we caught a quick glimpse of the north end of Golden, CO - we had to drive through Golden to get to the trail head. I can only imagine Kora was thinking "Food, warmth, humans - lets go back that way..."
+
+After we rounded the first knob, across a saddle from us was the Coors brewery! I drove past on the way in - it was more impressive from the highway - and was looking forward to gazing back down on such a
+
+<img src="golden_kora.jpg" alt="Dog conqueror" height=500 width=700>
+
+<img src="best_pic.jpg" alt="A man and his dog" height=500 width=700>
