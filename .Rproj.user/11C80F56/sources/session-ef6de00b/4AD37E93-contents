@@ -45,7 +45,7 @@ Then we hiked down, and the hike was done! A few hours and 4+ miles before 10 am
 
 # Bonus content!
 
-Here is my attempt at embedding the map of the actual hike I tracked in this blog! Eek! Exciting!
+Here is my attempt at embedding the map of the actual hike I tracked *into* this blog! Eek! Exciting!
 
 ```{r, include = FALSE, fig.height = 7}
 ## note, geojsonR package did NOT work to read in, but maybe is easier to use to plot?!

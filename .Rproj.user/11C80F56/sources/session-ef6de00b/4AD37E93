@@ -1,9 +1,9 @@
 {
     "id": "4AD37E93",
-    "path": "~/blog/colorado_blog/posts/2023-01-21/my_day.qmd",
+    "path": "C:/Users/peter/Documents/blog/colorado_blog/posts/2023-01-21/my_day.qmd",
     "project_path": "posts/2023-01-21/my_day.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "3320567635",
     "contents": "",
     "dirty": false,
     "created": 1674352120043.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "3022:1676",
+        "rmdVisualModeLocation": "3125:1676",
         "cursorPosition": "45,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1674788052,
+    "lastKnownWriteTime": 1674788125,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1674788052415,
+    "last_content_update": 1674788125019,
     "read_only": false,
     "read_only_alternatives": []
 }
