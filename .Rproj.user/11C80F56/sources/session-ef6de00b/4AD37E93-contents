@@ -42,3 +42,23 @@ This trail loops the top of this mountain, and on the SE side of the loop, we we
 <img src="SE_square.jpg" alt="A less wide view" height=500 width=700>
 
 Then we hiked down, and the hike was done! A few hours and 4+ miles before 10 am - not bad!
+
+# Bonus content!
+
+Here is my attempt at embedding the map of the actual hike I tracked in this blog! Eek! Exciting!
+
+```{r, include = FALSE, fig.height = 7}
+## note, geojsonR package did NOT work to read in, but maybe is easier to use to plot?!
+geo_galbraith <- geojson::ndgeo_read("new-track-12123-74433-am.geojson")
+
+# str(geo_galbraith) # yep, that's human-readable ugly! Perfect!
+
+library(leaflet)
+
+leaflet() %>% 
+  addTiles() %>% 
+  setView(lat = 39.769,
+          lng = -105.255,
+          zoom = 14) %>% 
+  addGeoJSON(geo_galbraith)
+```
