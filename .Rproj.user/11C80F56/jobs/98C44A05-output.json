@@ -9,3 +9,8 @@
 [1,"\n"]
 [1,"Watching files for changes\nBrowse at http://localhost:4306/posts/2023-01-22/my_day.html\n"]
 [1,"GET: /posts/2023-01-22/my_day.html\n"]
+[1,"[1/2] posts\\2023-01-22\\my_day.qmd\n"]
+[1,"[2/2] index.qmd\n"]
+[1,"\n"]
+[1,"Output created: ..\\..\\docs\\posts\\2023-01-22\\my_day.html\n\nWatching files for changes\n"]
+[1,"GET: /posts/2023-01-22/my_day.html\n"]
