@@ -1,0 +1,49 @@
+---
+title: "Maps!"
+date: "2099-01-01"
+categories: [maps]
+image: "map_thumbnail.PNG"
+---
+
+Here are the hikes I've done, all on the same map - I was originally going to do a map per post, but it seems underwhelming to see them individually and regular whelming to see them all in one spot, where we can watch me slowly conquer the greater Denver area!
+
+```{r, fig.height = 7, echo = FALSE, include = FALSE}
+## note, geojsonR package did NOT work to read in, but maybe is easier to use to plot?!
+
+geo_chataqua <- geojson::ndgeo_read("new-track-11423-95503-am.geojson")
+geo_galbraith <- geojson::ndgeo_read("new-track-12123-74433-am.geojson")
+geo_green_mtn <- geojson::ndgeo_read("new-track-12123-103428-am.geojson")
+geo_red_rocks <- geojson::ndgeo_read("new-track-12223-110223-am.geojson")
+geo_prairie_dogs <- geojson::ndgeo_read("new-track-12823-31105-pm.geojson")
+geo_betasso <- geojson::ndgeo_read("new-track-12823-110808-am.geojson")
+geo_santita <- geojson::ndgeo_read("new-track-21923-103044-am.geojson")
+geo_blackbear <- geojson::ndgeo_read("new-track-22523-105904-am.geojson")
+north_table <- geojson::ndgeo_read("new-track-22823-40212-pm.geojson")
+
+
+
+# str(geo_galbraith) # yep, that's human-readable ugly! Perfect!
+
+library(leaflet)
+
+
+```
+
+```{r, echo = FALSE}
+leaflet() %>% 
+  addTiles() %>% 
+  setView(lat = 39.83,
+          lng = -105.1,
+          zoom = 10) %>% 
+  addGeoJSON(geo_chataqua) %>% 
+  addGeoJSON(geo_galbraith) %>% 
+  addGeoJSON(geo_green_mtn) %>% 
+  addGeoJSON(geo_red_rocks) %>% 
+  addGeoJSON(geo_prairie_dogs) %>% 
+  addGeoJSON(geo_betasso) %>% 
+  addGeoJSON(geo_santita) %>% 
+  addGeoJSON(geo_blackbear) %>% 
+  addGeoJSON(north_table)
+```
+
+Feel free to zoom and pan the map to inspect the individual hikes!
