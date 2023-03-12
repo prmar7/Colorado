@@ -18,7 +18,8 @@ geo_prairie_dogs <- geojson::ndgeo_read("new-track-12823-31105-pm.geojson")
 geo_betasso <- geojson::ndgeo_read("new-track-12823-110808-am.geojson")
 geo_santita <- geojson::ndgeo_read("new-track-21923-103044-am.geojson")
 geo_blackbear <- geojson::ndgeo_read("new-track-22523-105904-am.geojson")
-north_table <- geojson::ndgeo_read("new-track-22823-40212-pm.geojson")
+geo_north_table <- geojson::ndgeo_read("new-track-22823-40212-pm.geojson")
+geo_mt_falcon <- geojson::ndgeo_read("new-track-31123-112428-am.geojson")
 
 
 
@@ -43,7 +44,8 @@ leaflet() %>%
   addGeoJSON(geo_betasso) %>% 
   addGeoJSON(geo_santita) %>% 
   addGeoJSON(geo_blackbear) %>% 
-  addGeoJSON(north_table)
+  addGeoJSON(geo_north_table) %>% 
+  addGeoJSON(geo_mt_falcon)
 ```
 
 Feel free to zoom and pan the map to inspect the individual hikes!
